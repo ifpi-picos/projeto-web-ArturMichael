@@ -133,3 +133,52 @@ img {
 .project a:hover {
   background-color: #40a296;
 }
+
+
+
+.contato h1 {
+  text-align: center;
+  color: white;
+  margin-top:30px;
+}
+
+.formulario {
+  background-color: #09182e;
+}
+
+form {
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+  background-color: #09182e;
+  color: white;
+}
+
+label {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #40a296;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #333;
+}
