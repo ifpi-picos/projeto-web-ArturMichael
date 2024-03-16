@@ -184,34 +184,6 @@ button:hover {
   background-color: aliceblue;
 }
 
-@media (max-width: 693px) {
-  .logo, .home-a{
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .home {
-    flex-direction: column;
-    gap: 3em;
-    padding: 30px 5% 0;
-    margin-top: 80px;
-    padding-top: 80px;
-  }
-
-  .home-main {
-    max-width: 100%;
-  }
-
-  .home-main h1 {
-    font-size: 45px;
-  }
-
-  img {
-    width: 400px;
-  }
-}
-
 @media (max-width: 1200px) {
   .home {
     flex-direction: column;
@@ -251,14 +223,27 @@ button:hover {
 
 }
 
-@media (max-width: 576px) {
-  img {
-    width: 250px;
-  }
-}
-
-
 @media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    gap: 3em;
+    padding: 30px 5% 0;
+    margin-top: 80px;
+    padding-top: 80px;
+  }
+
+  .home-main {
+    max-width: 100%;
+  }
+
+  .home-main h1 {
+    font-size: 45px;
+  }
+
+  img {
+    width: 400px;
+  }
+
   .sobre-mim {
     flex-direction: column;
     gap: 3em;
@@ -273,16 +258,7 @@ button:hover {
   .imagem img {
     width: 300px;
   }
-}
 
-@media (max-width: 576px) {
-  .imagem img {
-    width: 250px;
-  }
-}
-
-
-@media (max-width: 768px) {
   .projects {
     max-width: 90%;
     display: flex; 
@@ -302,9 +278,8 @@ button:hover {
   .project img {
     width: 100%; 
   }
-}
 
-@media (max-width: 768px) {  
+
   .formulario {
     width: 100%; 
   }
@@ -324,3 +299,22 @@ button:hover {
     width: 100%; 
   }
 }
+
+
+
+@media (max-width: 693px) {
+  .logo, .home-a{
+    display: none;
+  }
+}
+
+
+@media (max-width: 576px) {
+  img {
+    width: 250px;
+  }
+  .imagem img {
+    width: 250px;
+  }
+}
+
